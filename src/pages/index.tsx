@@ -1,20 +1,11 @@
-import {BsFillMoonStarsFill} from 'react-icons/bs'
+import Header from '../components/Header'
+import Information from '../components/Information'
 
 export default function Home() {
   return (
-    <div>
-      <header className='flex justify-between py-5 px-5 mx-5'>
-        <h1 className='text-xl'>
-        Denzel 
-        <br className='md:hidden' />  
-        Washington
-        </h1>
-    
-      <ul className='flex'>
-        <li><BsFillMoonStarsFill/></li>
-        <li>Resumo</li>
-      </ul>
-      </header>
+    <div className='px-10 min-h-screen bg-gradient-to-br from-gray-100 to-gray-50'>
+      <Header />
+      <Information />
     </div>
-  )
+  );
 }
