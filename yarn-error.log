@@ -1,0 +1,36 @@
+Arguments: 
+  /home/denzelw/.nvm/versions/node/v14.0.0/bin/node /home/denzelw/.nvm/versions/node/v14.0.0/bin/yarn add react-icons-bs
+
+PATH: 
+  /home/denzelw/.nvm/versions/node/v14.0.0/bin:/home/denzelw/bin:/usr/local/bin:/home/denzelw/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/bin/remote-cli:/home/denzelw/.nvm/versions/node/v14.0.0/bin:/home/denzelw/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-17.0.2/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/DW TRADER DE ELITE/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DW TRADER DE ELITE/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DW TRADER DE ELITE/AppData/Roaming/npm:/mnt/c/Users/DW TRADER DE ELITE/AppData/Local/GitHubDesktop/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.0.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-icons-bs: Not found
+      at Request.params.callback [as _callback] (/home/denzelw/.nvm/versions/node/v14.0.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/denzelw/.nvm/versions/node/v14.0.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/home/denzelw/.nvm/versions/node/v14.0.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/home/denzelw/.nvm/versions/node/v14.0.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1218:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
