@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Information from '../components/Information'
+import Scroll from '../components/Scroll'
 
 export default function Home() {
   return (
