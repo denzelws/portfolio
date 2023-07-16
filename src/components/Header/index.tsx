@@ -1,11 +1,11 @@
 import React from 'react'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 
-const index = () => {
+const Header = () => {
   return (
     <div className=' flex flex-col justify-center'>
-        <nav className='py-10 mb-12 flex justify-between'>
-          <h1 className='text-sm lg:text-xl'>
+        <nav className='py-10 mb flex justify-between'>
+          <h1 className='text-base lg:text-xl'>
             Denzel
             <br className='md:hidden' />
             Washington
@@ -28,4 +28,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Header
