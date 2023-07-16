@@ -22,14 +22,13 @@ const Information = () => {
           <BsArrowDownShort style={{ fill: 'purple' }}/>
         </span>
 
-        <div className='flex text-3xl lg:text-4xl text-gray-500 gap-5 mt-10 cursor-pointer'>
+        <div className='flex text-5xl lg:text-4xl text-gray-500 gap-5 mt-10 cursor-pointer'>
           <AiFillLinkedin/>
           <AiFillGithub/>
         </div>
         </div>
 
       </div>
-        <Scroll />
     </div>
   );
 };
